@@ -1,0 +1,34 @@
+# --- Compilação do TypeScript ---
+# Ignora a pasta onde o TS gera o código JavaScript compilado
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Configurações do VS Code
+.vscode/
+
+# Configuração do TypeScript
+tsconfig.json
+
+# --- Dependências ---
+
+node_modules/
+
+# --- Variáveis de Ambiente e Segredos ---
+.env
+.env.local
+.env.*.local
+
+# --- Logs e Diagnósticos ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Cache do Sistema / Ferramentas ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.eslintcache
