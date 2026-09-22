@@ -4,9 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "check-types": "tsc --noEmit",
-    "build": "tsc"
+      "start": "node --experimental-transform-types src",
+      "dev": "node --experimental-transform-types --watch src"
   },
   "keywords": [],
   "author": "",
